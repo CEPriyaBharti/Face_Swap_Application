@@ -11,10 +11,13 @@ the dependencies using pip:
 pip install -r requirements.txt
 ```
 
+### Doenload model
+Please download model from from this link  [model fille](https://drive.google.com/file/d/12pjNWnRKK0TYW5dBw_MxYP6vrxnDtTxR/view?usp=drive_link) .  and move it to project root folderr.
+
 ###  Run the face swapping program:
 
 ```bash
-python face_swap.py
+python script.py
 ```
 
 Make sure to replace "images/one.png" and "images/two.png" with the paths to your source and destination images. The program will save the swapped face images as swapped_face_1.jpg and swapped_face_2.jpg, and display them using OpenCV.
