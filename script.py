@@ -104,8 +104,8 @@ def apply_mask(image, landmarks):
     return mask
 
 # Load source and destination images
-source_img = cv2.imread("one.png")
-destination_img = cv2.imread("two.png")
+source_img = cv2.imread("images/one.png")
+destination_img = cv2.imread("images/two.png")
 
 # Perform face swapping (Source to Destination)
 swapped_image_1 = swap_faces(source_img, destination_img)
